@@ -325,10 +325,20 @@
   display: block;
   opacity: 0;
   transform: translate(25px, 0);
+  height: 50%;
+  width: 50%;
+  position: absolute;
+}
+
+#img-baseball{
+  position: relative;
+  width: 45.125em;
+  height:65.8125em;
+  margin-left: 30px;
 }
 
 .sign-up {
-  left: 840px;
+  left: 1150px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;

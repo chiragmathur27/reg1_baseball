@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./SIGNUPBASEBALL32.css";
 const fs = require("fs");
 import axios from "axios";
+import Baseball from "./BASEBALL.png";
 
 function SIGNUPBASEBALL32(props) {
   const {
@@ -186,7 +187,9 @@ function SIGNUPBASEBALL32(props) {
               alt="Iconsax/Linear/usersquare"
             />
             <div className="eazy inter-bold-white-21px">SIGN UP</div>
-            <img className="base-1 animate-enter" src={base1} alt="BASE 1" />
+            <div className="base-1 animate-enter">
+              <img id="img-baseball" src={Baseball} alt="BASE 1" />
+            </div>
           </div>
           <div className="sign-up inter-bold-white-46px">{signUp}</div>
 
